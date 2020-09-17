@@ -8,6 +8,6 @@
     "\\src\\components",
     "\\src\\reducers"
   ],
-  "SelectedNode": "\\src\\components\\UserHeader.js",
+  "SelectedNode": "\\src\\actions\\index.js",
   "PreviewInSolutionExplorer": false
 }
