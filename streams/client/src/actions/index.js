@@ -8,7 +8,7 @@ import {
     DELETE_STREAM,
     EDIT_STREAM
 } from './types';
-import { formValues } from 'redux-form';
+
 import history from '../history';
 
 export const signIn = (userId) => {
@@ -55,4 +55,5 @@ export const deleteStream = id => async dispatch => {
     await streams.delete(`/streams/${id}`);
 
     dispatch({ type: DELETE_STREAM, payload: id });
+    history.push('/');
 };
